@@ -1,4 +1,4 @@
-#📄 Policy Chatbot using RAG (LangChain + Gemini + ChromaDB)
+# 📄 Policy Chatbot using RAG (LangChain + Gemini + ChromaDB)
 
 This project is a Retrieval-Augmented Generation (RAG) chatbot that answers questions based on a company policy PDF instead of relying on an LLM’s internal knowledge.
 
@@ -15,7 +15,7 @@ It uses Google Gemini, LangChain, and ChromaDB to perform semantic search and ge
 - 💬 Web-based chat UI using Gradio
 
 ---
-##🧱 Project Structure
+## 🧱 Project Structure
 ```bash
 .
 ├── chroma_langchain_db/   # ChromaDB persistent vector database
@@ -26,7 +26,7 @@ It uses Google Gemini, LangChain, and ChromaDB to perform semantic search and ge
 └── README.md
 ```
 ---
-##🧠How It Works (RAG Pipeline)
+## 🧠How It Works (RAG Pipeline)
 1. Document Ingestion
  - Load company_policy.pdf
  - Split text into small overlapping chunks
@@ -50,11 +50,11 @@ It uses Google Gemini, LangChain, and ChromaDB to perform semantic search and ge
 6. User Interface
  - Gradio ChatInterface for real-time interaction
 ---
-##🖼️ Demo
+## 🖼️ Demo
 Below is an example of the chatbot answering questions based on the company policy:
 <img width="1204" height="431" alt="demo" src="https://github.com/user-attachments/assets/35ca041a-1816-49e9-8c8f-84c49b23795f" />
 ---
-##⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Reaganhoo/chatbot.git
@@ -65,20 +65,20 @@ cd chatbot
 pip install -r requirements.txt
 ```
 ---
-##Key Learnings from This Project
+## Key Learnings from This Project
 - Difference between RAG vs fine-tuning
 - Semantic search vs keyword search
 - Prompt grounding to reduce hallucination
 - Importance of architecture in AI systems
 ---
-##🧠 Tech Stack
+## 🧠 Tech Stack
 - Python
 - LangChain
 - Google Gemini (LLM + Embeddings)
 - ChromaDB
 - Gradio
 ---
-##🙌 Acknowledgements
+## 🙌 Acknowledgements
 - Google Gemini (Student Free Tier)
 - LangChain community
 - ChromaDB
